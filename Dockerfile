@@ -1,5 +1,6 @@
 FROM alpine
 
+ARG PORT=8080
 ARG UUID="1eb6e917-774b-4a84-aff6-b058577c60a5"
 
 ADD misaka.sh /misaka.sh
